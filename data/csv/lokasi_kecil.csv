@@ -1,0 +1,21 @@
+id_lokasi,nama_lokasi,tipe_lokasi
+L000,Gudang Pusat Jakarta,Gudang
+L001,Gudang Transit Bekasi,Gudang
+L002,Gudang Regional Bandung,Gudang
+L003,Gudang Surabaya,Gudang
+L004,Cabang Jakarta Utara Koja,Tujuan
+L005,Terminal Tebingtinggi,Tujuan
+L006,Terminal Bulukumba,Tujuan
+L007,Cabang Nganjub,Tujuan
+L008,Cabang Jepara,Tujuan
+L009,Cabang Bogor Parung,Tujuan
+L010,Cabang Yogyakarta Sleman,Tujuan
+L011,Cabang Mojokerto,Tujuan
+L012,Agency Bone Watampone,Tujuan
+L013,Cabang Maros,Tujuan
+L014,Agency Kendal,Tujuan
+L015,Agency Bekasi Summarecon,Tujuan
+L016,Agency Sumedang,Tujuan
+L017,Terminal Medan Tembung,Tujuan
+L018,Depo Tasik Mitra,Tujuan
+L019,Pos Distribusi Pati,Tujuan

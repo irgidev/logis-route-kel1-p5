@@ -1,0 +1,101 @@
+id_lokasi,nama_lokasi,tipe_lokasi
+L000,Gudang Pusat Jakarta,Gudang
+L001,Gudang Transit Bekasi,Gudang
+L002,Gudang Regional Bandung,Gudang
+L003,Gudang Surabaya,Gudang
+L004,Gudang Semarang,Gudang
+L005,Gudang Medan,Gudang
+L006,Gudang Makassar,Gudang
+L007,Gudang Palembang,Gudang
+L008,Gudang Denpasar,Gudang
+L009,Gudang Yogyakarta,Gudang
+L010,Gudang Balikpapan,Gudang
+L011,Gudang Manado,Gudang
+L012,Gudang Pontianak,Gudang
+L013,Gudang Samarinda,Gudang
+L014,Gudang Jember,Gudang
+L015,Gudang Malang,Gudang
+L016,Pos Distribusi Padang Sidempuran,Tujuan
+L017,Cabang Rembang,Tujuan
+L018,Cabang Jakarta Utara Penjernihan,Tujuan
+L019,Depo Wonogiri,Tujuan
+L020,Cabang Kuningan,Tujuan
+L021,Cabang Mojokerto,Tujuan
+L022,Depo Balikpapan Penajam,Tujuan
+L023,Cabang Jakarta Selatan Tebet,Tujuan
+L024,Cabang Kulon Progo,Tujuan
+L025,Pos Distribusi Jakarta Selatan Pasar Minggu,Tujuan
+L026,Depo Depok Cinere,Tujuan
+L027,Cabang Madiun,Tujuan
+L028,Cabang Pati,Tujuan
+L029,Cabang Pemalang,Tujuan
+L030,Cabang Tebingtinggi,Tujuan
+L031,Cabang Semarang Mriden,Tujuan
+L032,Depo Medan Marelan,Tujuan
+L033,Cabang Indramayu,Tujuan
+L034,Pos Distribusi Pasuruan,Tujuan
+L035,Depo Solo Palur,Tujuan
+L036,Cabang Denpasar Jimbaran,Tujuan
+L037,Cabang Tangerang Gading Serpong,Tujuan
+L038,Depo Deli Serdang,Tujuan
+L039,Cabang Sukabumi Pelabuhan Ratu,Tujuan
+L040,Cabang Samarinda Tenggarong,Tujuan
+L041,Agency Surabaya Kenjeran,Tujuan
+L042,Terminal Malang Kepanjen,Tujuan
+L043,Cabang Jakarta Barat Kembangan,Tujuan
+L044,Cabang Jakarta Utara Pademangan,Tujuan
+L045,Terminal Bandung Antapani,Tujuan
+L046,Agency Batang,Tujuan
+L047,Depo Jepara,Tujuan
+L048,Terminal Singkawang,Tujuan
+L049,Pos Distribusi Makassar Tamalanrea,Tujuan
+L050,Cabang Bogor Parung,Tujuan
+L051,Agency Singaraja,Tujuan
+L052,Terminal Salatiga,Tujuan
+L053,Cabang Balikpapan Batuaji,Tujuan
+L054,Cabang Wonosari,Tujuan
+L055,Terminal Bojonegoro,Tujuan
+L056,Depo Mataram Lombok,Tujuan
+L057,Agency Banda Aceh Lhokseumawe,Tujuan
+L058,Cabang Karanganyar,Tujuan
+L059,Cabang Medan Belawan,Tujuan
+L060,Terminal Brebes,Tujuan
+L061,Agency Cirebon Kuningan,Tujuan
+L062,Agency Yogyakarta Bantul,Tujuan
+L063,Cabang Pematangsiantar,Tujuan
+L064,Terminal Surabaya Rungkut,Tujuan
+L065,Agency Semarang Ungaran,Tujuan
+L066,Cabang Garut Banyumas,Tujuan
+L067,Cabang Tabanan,Tujuan
+L068,Depo Sintang,Tujuan
+L069,Cabang Tangerang BSD,Tujuan
+L070,Cabang Jakarta Barat Tambora,Tujuan
+L071,Cabang Tegal Brebes,Tujuan
+L072,Depo Bontang,Tujuan
+L073,Pos Distribusi Sragen,Tujuan
+L074,Pos Distribusi Maros,Tujuan
+L075,Depo Bengkalis,Tujuan
+L076,Agency Bogor Tajur,Tujuan
+L077,Terminal Jakarta Timur Durensawit,Tujuan
+L078,Depo Bekasi Summarecon,Tujuan
+L079,Agency Surabaya Wonokromo,Tujuan
+L080,Terminal Pekanbaru Dumai,Tujuan
+L081,Agency Jakarta Utara Koja,Tujuan
+L082,Cabang Sumedang,Tujuan
+L083,Cabang Yogyakarta Sleman,Tujuan
+L084,Pos Distribusi Pekalongan,Tujuan
+L085,Cabang Cimahi Cibabat,Tujuan
+L086,Agency Jakarta Timur Jatinegara,Tujuan
+L087,Agency Nunukan,Tujuan
+L088,Cabang Sidoarjo,Tujuan
+L089,Agency Bandung Cicaheum,Tujuan
+L090,Depo Bandung Buahbatu,Tujuan
+L091,Agency Jakarta Selatan Kebayoran,Tujuan
+L092,Agency Tuban,Tujuan
+L093,Agency Langsa,Tujuan
+L094,Cabang Banyuwangi,Tujuan
+L095,Depo Manado Mapanget,Tujuan
+L096,Agency Tangerang Karawaci,Tujuan
+L097,Depo Makassar Panakkukang,Tujuan
+L098,Depo Tasik Mitra,Tujuan
+L099,Depo Denpasar Kuta,Tujuan
