@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "project": "LogisRoute - Scaling Benchmark",
+    "group": "Kelompok 1 - Paralel 5",
+    "description": "Performance comparison across different data sizes",
+    "iterations": 10000,
+    "timestamp": "2026-06-05T06:56:37"
+  },
+  "scalingResults": [
+    {
+      "vertices": 20,
+      "edges": 100,
+      "search": {
+        "adjacencyMatrix": 0.0190,
+        "adjacencyList": 0.1327
+      },
+      "update": {
+        "adjacencyMatrix": 0.0201,
+        "adjacencyList": 0.1555
+      },
+      "traverseAll": {
+        "adjacencyMatrix": 0.0014,
+        "adjacencyList": 0.0014
+      },
+      "memory": {
+        "adjacencyMatrixBytes": 3200,
+        "adjacencyListBytes": 4640
+      }
+    },
+    {
+      "vertices": 50,
+      "edges": 250,
+      "search": {
+        "adjacencyMatrix": 0.0404,
+        "adjacencyList": 0.0210
+      },
+      "update": {
+        "adjacencyMatrix": 0.0184,
+        "adjacencyList": 0.0553
+      },
+      "traverseAll": {
+        "adjacencyMatrix": 0.0011,
+        "adjacencyList": 0.0013
+      },
+      "memory": {
+        "adjacencyMatrixBytes": 20000,
+        "adjacencyListBytes": 11472
+      }
+    },
+    {
+      "vertices": 100,
+      "edges": 500,
+      "search": {
+        "adjacencyMatrix": 0.0205,
+        "adjacencyList": 0.0203
+      },
+      "update": {
+        "adjacencyMatrix": 0.0201,
+        "adjacencyList": 0.0437
+      },
+      "traverseAll": {
+        "adjacencyMatrix": 0.0012,
+        "adjacencyList": 0.0012
+      },
+      "memory": {
+        "adjacencyMatrixBytes": 80000,
+        "adjacencyListBytes": 22752
+      }
+    },
+    {
+      "vertices": 200,
+      "edges": 1000,
+      "search": {
+        "adjacencyMatrix": 0.0227,
+        "adjacencyList": 0.0453
+      },
+      "update": {
+        "adjacencyMatrix": 0.0173,
+        "adjacencyList": 0.0506
+      },
+      "traverseAll": {
+        "adjacencyMatrix": 0.0014,
+        "adjacencyList": 0.0014
+      },
+      "memory": {
+        "adjacencyMatrixBytes": 320000,
+        "adjacencyListBytes": 45728
+      }
+    },
+    {
+      "vertices": 500,
+      "edges": 2500,
+      "search": {
+        "adjacencyMatrix": 0.0220,
+        "adjacencyList": 0.0228
+      },
+      "update": {
+        "adjacencyMatrix": 0.0213,
+        "adjacencyList": 0.0448
+      },
+      "traverseAll": {
+        "adjacencyMatrix": 0.0014,
+        "adjacencyList": 0.0014
+      },
+      "memory": {
+        "adjacencyMatrixBytes": 2000000,
+        "adjacencyListBytes": 114176
+      }
+    }
+  ]
+}

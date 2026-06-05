@@ -1,0 +1,21 @@
+id_lokasi,nama_lokasi,tipe_lokasi
+L001,Gudang Pusat Jakarta,Gudang
+L002,Gudang Transit Bekasi,Gudang
+L003,Gudang Regional Bandung,Gudang
+L004,Cabang Jakarta Selatan,Tujuan
+L005,Cabang Jakarta Barat,Tujuan
+L006,Cabang Jakarta Timur,Tujuan
+L007,Cabang Jakarta Utara,Tujuan
+L008,Cabang Depok Margonda,Tujuan
+L009,Cabang Bogor Selatan,Tujuan
+L010,Cabang Bogor Utara,Tujuan
+L011,Cabang Tangerang Kota,Tujuan
+L012,Cabang Tangerang Selatan,Tujuan
+L013,Cabang Bekasi Timur,Tujuan
+L014,Cabang Bekasi Barat,Tujuan
+L015,Cabang Karawang,Tujuan
+L016,Cabang Cikarang,Tujuan
+L017,Cabang Serpong,Tujuan
+L018,Cabang Cileungsi,Tujuan
+L019,Cabang Cibinong,Tujuan
+L020,Cabang Pamulang,Tujuan

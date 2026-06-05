@@ -1,0 +1,49 @@
+# === BINARY & COMPILED ===
+*.exe
+*.o
+*.out
+*.obj
+
+# === TEMP / DEBUG LOGS ===
+_backup*/
+compile_err.txt
+compile_out.txt
+compile_output.txt
+errors.log
+stderr_log.txt
+stdout.log
+stdout_log.txt
+run_output.txt
+pdf_extracted.txt
+debug.mjs
+
+# === SCREENSHOT SEMENTARA (debug) ===
+expanded-*.png
+fix-graph-*.png
+
+# === TEST FILES (bukan core) ===
+test_minimal.cpp
+test_simple.cpp
+
+# === AI TOOL CONFIG ===
+.gstack/
+
+# === NODE_MODULES ===
+node_modules/
+
+# === OS FILES ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDE / EDITOR ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === ENVIRONMENT ===
+.env
+.env.local
+.env.*.local
