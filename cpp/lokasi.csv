@@ -1,0 +1,29 @@
+ID_Lokasi,Nama_Lokasi,Tipe_Lokasi
+L001,Gudang Pusat Jakarta,Gudang
+L002,Gudang Regional Bandung,Gudang
+L003,Gudang Regional Surabaya,Gudang
+L004,Gudang Regional Semarang,Gudang
+L005,Gudang Regional Yogyakarta,Gudang
+L006,Cabang Jakarta Pusat,Cabang
+L007,Cabang Jakarta Selatan,Cabang
+L008,Cabang Jakarta Timur,Cabang
+L009,Cabang Jakarta Barat,Cabang
+L010,Cabang Jakarta Utara,Cabang
+L011,Cabang Bekasi,Cabang
+L012,Cabang Tangerang,Cabang
+L013,Cabang Depok,Cabang
+L014,Cabang Bogor,Cabang
+L015,Cabang Bandung Kota,Cabang
+L016,Cabang Cimahi,Cabang
+L017,Cabang Sumedang,Cabang
+L018,Cabang Garut,Cabang
+L019,Cabang Surabaya Kota,Cabang
+L020,Cabang Gresik,Cabang
+L021,Cabang Sidoarjo,Cabang
+L022,Cabang Malang,Cabang
+L023,Cabang Semarang Kota,Cabang
+L024,Cabang Salatiga,Cabang
+L025,Cabang Kudus,Cabang
+L026,Cabang Yogyakarta Kota,Cabang
+L027,Cabang Sleman,Cabang
+L028,Cabang Bantul,Cabang

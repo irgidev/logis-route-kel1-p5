@@ -27,6 +27,9 @@
 #include <cfloat>
 #include <limits>
 #include <random>
+#ifdef _WIN32
+#include <windows.h>
+#endif
 
 using namespace std;
 using namespace chrono;
@@ -1497,37 +1500,43 @@ void tampilkanHeader() {
 }
 
 void tampilkanMenu() {
-    cout << "  ┌─────────────────────────────────────────────────────────────┐\n";
-    cout << "  │                         MENU UTAMA                         │\n";
-    cout << "  ├─────────────────────────────────────────────────────────────┤\n";
-    cout << "  │  [1]  Tampilkan Semua Lokasi                                 │\n";
-    cout << "  │  [2]  Tampilkan Semua Rute                                   │\n";
-    cout << "  │  [3]  Cari Rute (berdasarkan asal & tujuan)                  │\n";
-    cout << "  │  [4]  Lihat Rute dari Lokasi Tertentu                        │\n";
-    cout << "  ├─────────────────────────────────────────────────────────────┤\n";
-    cout << "  │  [5]  Tambah Lokasi Baru                                     │\n";
-    cout << "  │  [6]  Tambah Rute Baru                                       │\n";
-    cout << "  │  [7]  Update Jarak Rute                                     │\n";
-    cout << "  │  [8]  Hapus Rute                                            │\n";
-    cout << "  │  [9]  Hapus Lokasi (+ rute terkait)                          │\n";
-    cout << "  ├─────────────────────────────────────────────────────────────┤\n";
-    cout << "  │  [10] Tampilkan Statistik Jaringan                            │\n";
-    cout << "  │  [11] Tampilkan Adjacency Matrix                             │\n";
-    cout << "  │  [12] Tampilkan Adjacency List                               │\n";
-    cout << "  ├─────────────────────────────────────────────────────────────┤\n";
-    cout << "  │  [13] Jalankan Benchmark (Matrix vs List)                    │\n";
-    cout << "  │  [14] Simpan Perubahan ke CSV                                │\n";
-    cout << "  ├─────────────────────────────────────────────────────────────┤\n";
-    cout << "  │  [15] Generate Data Besar (500+ node, 2500+ edge)            │\n";
-    cout << "  │  [16] Scaling Benchmark (20 -> 500 node growth test)        │\n";
-    cout << "  │  [17] Load Ulang Data Asli (lokasi.csv + rute.csv)           │\n";
-    cout << "  ├─────────────────────────────────────────────────────────────┤\n";
-    cout << "  │  [0]  Keluar                                                │\n";
-    cout << "  └─────────────────────────────────────────────────────────────┘\n";
+    cout << "  +-------------------------------------------------------------+\n";
+    cout << "  |                         MENU UTAMA                         |\n";
+    cout << "  +-------------------------------------------------------------+\n";
+    cout << "  |  [1]  Tampilkan Semua Lokasi                                 |\n";
+    cout << "  |  [2]  Tampilkan Semua Rute                                   |\n";
+    cout << "  |  [3]  Cari Rute (berdasarkan asal & tujuan)                  |\n";
+    cout << "  |  [4]  Lihat Rute dari Lokasi Tertentu                        |\n";
+    cout << "  +-------------------------------------------------------------+\n";
+    cout << "  |  [5]  Tambah Lokasi Baru                                     |\n";
+    cout << "  |  [6]  Tambah Rute Baru                                       |\n";
+    cout << "  |  [7]  Update Jarak Rute                                     |\n";
+    cout << "  |  [8]  Hapus Rute                                            |\n";
+    cout << "  |  [9]  Hapus Lokasi (+ rute terkait)                          |\n";
+    cout << "  +-------------------------------------------------------------+\n";
+    cout << "  |  [10] Tampilkan Statistik Jaringan                            |\n";
+    cout << "  |  [11] Tampilkan Adjacency Matrix                             |\n";
+    cout << "  |  [12] Tampilkan Adjacency List                               |\n";
+    cout << "  +-------------------------------------------------------------+\n";
+    cout << "  |  [13] Jalankan Benchmark (Matrix vs List)                    |\n";
+    cout << "  |  [14] Simpan Perubahan ke CSV                                |\n";
+    cout << "  +-------------------------------------------------------------+\n";
+    cout << "  |  [15] Generate Data Besar (500+ node, 2500+ edge)            |\n";
+    cout << "  |  [16] Scaling Benchmark (20 -> 500 node growth test)        |\n";
+    cout << "  |  [17] Load Ulang Data Asli (lokasi.csv + rute.csv)           |\n";
+    cout << "  +-------------------------------------------------------------+\n";
+    cout << "  |  [0]  Keluar                                                |\n";
+    cout << "  +-------------------------------------------------------------+\n";
     cout << "  >> Pilihan: ";
 }
 
 int main() {
+#ifdef _WIN32
+    // Fix garbled Unicode box-drawing chars on Windows CMD
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+#endif
+
     ManajemenRute sistem;
 
     tampilkanHeader();
